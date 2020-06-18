@@ -2,7 +2,7 @@ process {
     Id = "deploymentprocess-Projects-12"
     OwnerId = "Projects-12"
     IsFrozen = false
-    Version = 3
+    Version = 4
     SpaceId = "Spaces-1"
     Steps {
         run_a_script {
@@ -18,7 +18,7 @@ process {
                     ActionType = "Octopus.Script"
                     Container {
                     }
-                    IsDisabled = false
+                    IsDisabled = true
                     IsRequired = false
                     Environments = []
                     ExcludedEnvironments = []
